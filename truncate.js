@@ -16,6 +16,7 @@ function truncateWords(longText, numWords){
     console.log(originalText.split(' '));
     console.log(shortWordList + addOn);
     console.log(shortWordList.join(" ") + addOn);
+	alert(shortWordList.join(" ") + addOn);
       
 }
 
